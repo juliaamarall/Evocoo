@@ -354,9 +354,9 @@ span{
 
 
     @media screen and (max-width: 800px) {
-        /* body{
+        body{
             border: 2px solid rgb(0, 4, 255);
-           } */
+           }
 
            hr{
             position: relative;
@@ -412,9 +412,9 @@ span{
 
 
     @media screen and  (max-width: 667px){
-        /* body{
+        body{
             border: 2px solid rgb(234, 0, 255);
-           } */
+           }
 
            #central01{
             background-color:rgb(52, 3, 99) ;
@@ -437,7 +437,7 @@ span{
 
     @media screen and (max-width: 480px){
         body{
-            /* border: 2px solid rgb(255, 115, 0); */
+            border: 2px solid rgb(255, 115, 0);
             overflow-x: hidden;
            
            }
@@ -499,7 +499,7 @@ span{
             justify-content: center;
             margin: auto;
             position: relative;
-            top: 30%;
+            top: 32%;
             width: 300px;
             height: 300px;
         }
@@ -515,7 +515,7 @@ span{
             text-align: center;
             align-items: center;
             height: 500px;
-            width: 105%;
+            width: 100%;
             border-bottom-left-radius: 50%;
             border-bottom-right-radius: 50%;
             

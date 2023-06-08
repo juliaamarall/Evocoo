@@ -1,0 +1,556 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'aura' ;
+    src: url('AURALUXESS.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+/* body{
+
+} */
+
+header{
+
+    background-color: rgb(52, 3, 99);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+   
+}
+header> h1{
+    letter-spacing: 3px;
+}
+nav > a{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+nav > a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color :rgb(6, 221, 217);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition:0.5s ease-in-out;
+
+ }
+
+ nav > a:hover::after{
+    width: 100%;
+   
+ } 
+#central01{
+    background-color:rgb(52, 3, 99) ;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
+
+#centro{
+   align-items: center;
+   position: relative;
+   top: 25%;
+   font-size: 20px;
+    
+
+}
+
+h2{
+    margin-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+/* #centro a{
+    text-decoration: none;
+    color: rgb(52, 3, 99) ;
+    background-color: rgb(6, 221, 217) ;
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+.container{
+    width: 700px;
+    height: auto;
+
+    display: flex;
+    grid-template-columns: repeat(3, ifr);
+    gap:32px ;
+    margin: 5%;
+}
+#butao{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+span{
+    border-bottom: 3px solid rgb(6, 221, 217);
+}
+        /* img */
+#img{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 20%;
+    width: 500px;
+}
+
+
+    /* conteudo */
+    .card{
+        width: 400px;
+        text-align: center;
+        align-items: center;
+        margin: 30px;
+    }
+    .card > i{
+        margin-bottom: 20px;
+        margin: auto;
+    
+    }
+    .card > p{
+        margin-top: 5%;
+        padding: 5px;
+
+    }
+    .card > h4{
+        margin: 10px;
+        font-family: 'aura';
+        color: rgb(52, 3, 99);
+    } 
+    
+    #teste > i{
+        margin: 5px;
+    }
+    #bloco01{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: 15%; 
+    }
+
+    hr{
+        position: relative;
+       top: 15vw; 
+       width: 600px;
+       margin: auto;
+   }
+ #bloco02{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+   #redonda{
+    width: 500px;
+    height: 500px;
+   }
+   #cor{
+    background-color: rgb(52, 3, 99); 
+    color: white;
+    width: 500px;
+    height: 250px;
+    padding: 15px;
+    position: relative;
+    font-size: 20px;
+   
+ 
+
+
+   }
+   #fonte02{
+    font-family: 'aura';
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    font-size: 25px;
+   }
+
+   input{
+    background-color: aquamarine;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(52, 3, 99);
+    font-size: 19px;
+   }
+
+   .logos{
+    width: 50px;
+    height: 50px;
+   }
+   .insta{
+    width: 40px;
+    height: 40px;
+   }
+   footer > h5{
+    text-align: center;
+    padding-bottom: 5px;
+
+   }
+  #footer01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    @media screen and (min-width: 1024px) and (max-width: 1366px){
+       /* body{
+        border: 2px solid red;
+       } */
+
+       #bloco02{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+     }
+       #redonda{
+        width: 500px;
+        height: 500px;
+       }
+       #cor{
+        background-color: rgb(52, 3, 99); 
+        color: white;
+        width: 450px;
+        height: 300px;
+        padding: 15px;
+        position: relative;
+     
+    
+    
+       }
+       #fonte02{
+        font-family: 'aura';
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+        font-size: 25px;
+       }
+    
+       input{
+        background-color: aquamarine;
+        margin-top: 10px;
+        padding: 10px;
+        color: rgb(52, 3, 99);
+        font-size: 19px;
+       }
+
+    }
+
+    @media screen and (min-width: 500px) and (max-width: 1024px){
+        /* body{
+            border: 2px solid rgb(81, 255, 0);
+           } */
+
+           .card{
+            width: 400px;
+            text-align: center;
+            align-items: center;
+            margin: 30px;
+        }
+        .card > i{
+            margin-bottom: 20px;
+            margin: auto;
+        
+        }
+        .card > p{
+            margin-top: 10%;
+            padding: 5px;
+    
+        }
+        .card > h4{
+            margin: 10px;
+            font-family: 'aura';
+            color: rgb(52, 3, 99);
+        }
+        
+        #teste > i{
+            margin: 5px;
+        }
+        #bloco01{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: 20px;
+            margin-top: 20%;
+           
+        } 
+
+        #img{
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            position: relative;
+            top: 20%;
+            width: 500px;
+            height: 500px;
+        }
+
+        #img > img{
+            width: 450px;
+            height: 450px;
+        }
+
+        #bloco02{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 5%;
+          
+         }
+           #redonda{
+            width: 500px;
+            height: 500px;
+           }
+           #cor{
+            background-color: rgb(52, 3, 99); 
+            color: white;
+            width: 500px;
+            height: 250px;
+            padding: 20px;
+            font-size: 20px;
+           }
+           #fonte02{
+            font-family: 'aura';
+            letter-spacing: 3px;
+            padding-bottom: 10px;
+            font-size: 25px;
+           }
+
+           footer{
+           margin-top: 20px;
+            
+        
+           }
+        
+      
+    }
+
+
+    @media screen and (max-width: 800px) {
+        /* body{
+            border: 2px solid rgb(0, 4, 255);
+           } */
+
+           hr{
+            position: relative;
+           top: 30vw; 
+           width: 400px;
+           margin: auto;
+       }
+
+       #bloco01{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: 30%; 
+    }
+
+    #bloco02{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 5%;
+     }
+       #redonda{
+        width: 500px;
+        height: 500px;
+       }
+       #cor{
+        background-color: rgb(52, 3, 99); 
+        color: white;
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+        font-size: 20px;
+       }
+       #fonte02{
+        font-family: 'aura';
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+        font-size: 25px;
+       }
+
+       footer{
+       margin-top: 20px;
+        
+    
+       }
+
+   
+
+    }
+
+
+    @media screen and  (max-width: 667px){
+        /* body{
+            border: 2px solid rgb(234, 0, 255);
+           } */
+
+           #central01{
+            background-color:rgb(52, 3, 99) ;
+            color: aliceblue;
+            text-align: center;
+            align-items: center;
+            height: 500px;
+            width: 100vw;
+            border-bottom-left-radius: 40%;
+            border-bottom-right-radius: 40%;
+            
+        }
+        #centro{
+            align-items: center;
+            position: relative;
+            top: 25%;
+            font-size: 18px;
+         }
+    }
+
+    @media screen and (max-width: 480px){
+        body{
+            /* border: 2px solid rgb(255, 115, 0); */
+            overflow-x: hidden;
+           
+           }
+           header{
+
+            background-color: rgb(52, 3, 99);
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 10px;
+            width: 100%;
+        }
+
+
+           hr{
+            position: relative;
+           top: 15vw; 
+           width: 250px;
+           margin: auto;
+       }
+
+           .card{
+            width: 400px;
+            text-align: center;
+            align-items: center;
+            margin: 30px;
+        }
+        .card > i{
+            margin-bottom: 20px;
+            margin: auto;
+        
+        }
+        .card > p{
+            margin-top: 2%;
+            padding: 5px;
+    
+        }
+        .card > h4{
+            margin: 10px;
+            font-family: 'aura';
+            color: rgb(52, 3, 99);
+        }
+        
+        #teste > i{
+            margin: 5px;
+        }
+        #bloco01{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: 20px;
+            margin-top: 20%;
+           
+        } 
+
+        #img{
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            position: relative;
+            top: 30%;
+            width: 300px;
+            height: 300px;
+        }
+
+        #img > img{
+            width: 300px;
+            height: 300px;
+        }
+
+        #central01{
+            background-color:rgb(52, 3, 99) ;
+            color: aliceblue;
+            text-align: center;
+            align-items: center;
+            height: 500px;
+            width: 105%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            
+        }
+
+        #bloco02{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 5%;
+         }
+           #redonda{
+            width: 400px;
+            height: 400px;
+           }
+           #cor{
+            background-color: rgb(52, 3, 99); 
+            color: white;
+            width: 300px;
+            height: 400px;
+            padding: 20px;
+            font-size: 20px;
+           }
+           #fonte02{
+            font-family: 'aura';
+            letter-spacing: 3px;
+            padding-bottom: 10px;
+            font-size: 25px;
+           }
+    
+           footer{
+           margin-top: 30px;
+            
+        
+           }
+    }
